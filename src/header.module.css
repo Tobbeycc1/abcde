@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background: var(--black);
+  color: green;
+  vertical-align: middle;
+  text-align: left;
+}
+.Logo {
+  margin: 22px;
+  margin-left: 40.625px;
+  margin-right: 46.463%;
+  vertical-align: middle;
+  display: inline-block;
+  width: 99px;
+}
+.nav {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5px;
+  font-weight: bold;
+  margin-right: 1.9%;
+  cursor: pointer;
+}
+
+.nav:active {
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--yellow);
+}
+.nav:focus {
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--yellow);
+}
+
+.navreq {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5px;
+  font-weight: bold;
+  margin-left: 1.9%;
+  margin-right: 1.9%;
+  border: 2px solid var(--yellow);
+  padding: 8px 13px;
+  border-radius: 6px;
+}
+
+.icon {
+  vertical-align: middle;
+  color: white;
+}

@@ -1,0 +1,11 @@
+.yellowdash {
+  width: 32px;
+  height: 4px;
+  background: var(--yellow);
+  display: inline-block;
+}
+.subhtitle {
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: middle;
+}

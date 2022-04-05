@@ -1,0 +1,14 @@
+.loremsubtext{
+    width: 190px;
+    font-size: 10.5px;
+    margin: 10px 0px;
+}
+.stepsbox{
+    border:3px solid var(--yellow);
+    width: 290px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    display: inline-block;
+    text-align: left;
+}
