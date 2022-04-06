@@ -23,8 +23,13 @@
   display: inline-block;
   margin-top: 100px;
 }
+.howweoperatetitlecontainer{
+  margin-bottom: 50px;
+}
 .title {
   text-align: center;
+  padding: 0px 25px;
+  margin-bottom: 100px;
 }
 .hand {
   vertical-align: top;
@@ -51,7 +56,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .howweoperatecontainer {
-  margin: 80px 40.625px 40px 40.625px;
+  padding: 0px 22px;
   text-align: center;
   width: fit-content;
 }
@@ -61,4 +66,29 @@
 }
 .stepsboxcontainer{
   text-align: center;
+  padding: 0px 80px;
+}
+
+.aboutuscontainer{
+  margin-top: 200px;
+  
+padding: 0px 22px;
+/* margin-bottom: 100px; */
+}
+.lady{
+  vertical-align: middle;
+  margin-right: 65px;
+}
+.ladyandtextcon{
+  text-align: center;
+  padding: 0px 22px;
+  
+}
+.abouttext{
+  width: 579px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 15.02px;
+  line-height: 25px;
 }
