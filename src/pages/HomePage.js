@@ -8,6 +8,9 @@ import inputiconc from '../images/Get assigned to a TM icon.png'
 import inputicond from '../images/Monitor TM icon.png'
 import inputicone from '../images/Delivered icon.png'
 import girl from '../images/3d About us lady.png'
+import WhyChooseUsBox from '../componet/WhyChooseus'
+import whyChooseUsIcon from '../images/cheap rates icon.png'
+
 
 
 function Homepage(props) {
@@ -23,7 +26,7 @@ function Homepage(props) {
                 </form>  
                 </div>
                 </div>
-            <img src={hand} className={classes.hand}/>
+            <img src={hand} alt={girl} className={classes.hand}/>
             </div>
 
             {/* How we operate */}
@@ -48,7 +51,7 @@ function Homepage(props) {
     <Dash title={'About Tex-Z'}/>
 </div>
 <div className={classes.ladyandtextcon}>
-    <img src={girl} className={classes.lady}/>
+    <img src={girl} alt={girl} className={classes.lady}/>
     <p className={classes.abouttext}>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
 
 We intend to place much interest on delivering large sized goods with a considerable weight for both corporate and domestic clients, and we will strive to meet all the demands of our customers. <br/> <br/>
@@ -56,6 +59,15 @@ We intend to place much interest on delivering large sized goods with a consider
 Our delivery business has been established not only to generate revenue and make profit but to solve problems facing retailers and customers in movement of their goods and also to compete favorably with other goods delivery business in Lagos and in Nigeria. Tex-Z delivery inc. is aimed at striking a balance between retailers of large sized goods and its respective customers in terms of the supposed goods movements. By so doing, saves the retailer and customer time, cost and energy.
 </p>
 </div>
+<div className={classes.whyChooseUsCon}>
+    <h3 className={classes.whyChooseUsTitle}>Why Choose Us?</h3>
+    <p className={classes.whyChooseUsSubTitle}>Imagine a platform that allows you to plan your schedule with accurate information on 
+exact timing your package would arrive, not forgetting our:</p> 
+<WhyChooseUsBox whyChooseUsiconHeader={'Cheap rates'} whyChooseUsIcon={whyChooseUsIcon} whyChooseUsiconSubtext={'Our prices are friendly, yet you get the best service'}/>
+</div>
+
+
+ 
 
 
 

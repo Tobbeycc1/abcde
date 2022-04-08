@@ -1,0 +1,63 @@
+.livetrackcon{
+    margin-top: 15vh;
+  height: 100vh;
+  
+}
+.livetracksubcon{
+    width: 643px;
+    color: blue;
+    margin: 20px auto;
+    
+ 
+}
+.wavycon{
+text-align: center;
+
+
+    
+}
+.trackingsubtitle{
+  margin-bottom: 15px;  
+  font-size: 12.03px;
+  font-weight: bold;
+}
+
+.trackingsubtitle{
+    color: var(--yellow);
+}
+.trackingtitle{
+   
+    font-size: 25.71px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.smallcarcon{
+    text-align: right;
+    
+}
+.smallcar{
+    width: 180px;
+    animation-name: slidingCar;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    display: flex;
+    bottom: 2vh;
+    left: 80vw;
+    
+    
+}
+@keyframes slidingCar{
+    0%{
+       left: 80vw;
+    }
+    25%{
+        left: 50vw;
+       
+    }
+   
+}
+.wavy{
+    width: 600px;
+}

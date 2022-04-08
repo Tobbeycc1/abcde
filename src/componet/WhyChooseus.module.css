@@ -1,0 +1,8 @@
+.wcuheader{
+    color: white;
+}
+.whyChooseUsIcon{
+    background: var(--yellow);
+    padding: 20px;
+    border-radius: 50%;
+}
