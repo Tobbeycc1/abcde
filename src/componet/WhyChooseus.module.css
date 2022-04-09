@@ -1,8 +1,35 @@
 .wcuheader{
-    color: white;
+    color: var(--black);
+    margin-bottom: 10px;
+    font-size: 18.43px;
 }
 .whyChooseUsIcon{
     background: var(--yellow);
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.WhyChooseUsCon{
+    
+    padding: 20px;
+    background: white;
+    width: 337px;
+    color: var(--black);
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+  
+}
+.wcuSubText{
+    color: var(--black);
+    font-size: 12.15px;
+    width: 170px;
+    
+}
+.WCtextcon{
+    display: inline-block;
+    vertical-align: middle;
 }

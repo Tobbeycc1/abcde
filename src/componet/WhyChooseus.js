@@ -1,11 +1,11 @@
 import classes from './WhyChooseus.module.css'
 function WhyChooseUsBox(props) {
     return(
-        <div>
+        <div className={classes.WhyChooseUsCon}> 
             <img src={props.whyChooseUsIcon} alt={props.whyChooseUsIcon} className={classes.whyChooseUsIcon}/>
-            <div>
+            <div className={classes.WCtextcon}>
                 <p className={classes.wcuheader}>{props.whyChooseUsiconHeader}</p>
-                <p>{props.whyChooseUsiconSubtext}</p>
+                <p className={classes.wcuSubText}>{props.whyChooseUsiconSubtext} </p>
             </div>
         </div>
 

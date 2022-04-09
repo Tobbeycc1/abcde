@@ -93,7 +93,7 @@ padding: 0px 22px;
   line-height: 25px;
 }
 .whyChooseUsCon{
-  width: 886px;
+  width: 85vw;
   margin: 200px auto;
 }
 .whyChooseUsTitle{
@@ -103,4 +103,14 @@ padding: 0px 22px;
 }
 .whyChooseUsSubTitle{
   font-size: 23.21px;
+}
+.WhyChooseUsBoxCon{
+  margin-top: 80px;
+  text-align: center;
+}
+.aboutussubtext{
+  margin-bottom: 30px;
+}
+.yourlogocon{
+    text-align: center;
 }

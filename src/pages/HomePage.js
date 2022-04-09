@@ -9,7 +9,11 @@ import inputicond from '../images/Monitor TM icon.png'
 import inputicone from '../images/Delivered icon.png'
 import girl from '../images/3d About us lady.png'
 import WhyChooseUsBox from '../componet/WhyChooseus'
-import whyChooseUsIcon from '../images/cheap rates icon.png'
+import cheapRateIcon from '../images/cheap rates icon.png'
+import swiftIcon from '../images/swift response icon.png'
+import referIcon from '../images/refer & earn icon.png'
+import YourLogo from '../componet/YourLogo'
+import yourlogo from '../images/your logo.png'
 
 
 
@@ -62,8 +66,33 @@ Our delivery business has been established not only to generate revenue and make
 <div className={classes.whyChooseUsCon}>
     <h3 className={classes.whyChooseUsTitle}>Why Choose Us?</h3>
     <p className={classes.whyChooseUsSubTitle}>Imagine a platform that allows you to plan your schedule with accurate information on 
-exact timing your package would arrive, not forgetting our:</p> 
-<WhyChooseUsBox whyChooseUsiconHeader={'Cheap rates'} whyChooseUsIcon={whyChooseUsIcon} whyChooseUsiconSubtext={'Our prices are friendly, yet you get the best service'}/>
+exact timing your package would arrive, not forgetting our:</p>
+<div className={classes.WhyChooseUsBoxCon}>
+    <WhyChooseUsBox whyChooseUsiconHeader={'Cheap rates'} whyChooseUsIcon={cheapRateIcon} whyChooseUsiconSubtext={'Our prices are friendly, yet you get the best service'}/>
+<WhyChooseUsBox whyChooseUsiconHeader={'Swift Response'} whyChooseUsIcon={swiftIcon} whyChooseUsiconSubtext={'Get your package in a blink of an eye'}/>
+<WhyChooseUsBox whyChooseUsiconHeader={'Refer & Earn'} whyChooseUsIcon={referIcon} whyChooseUsiconSubtext={'You can get free bonuses when you share refer a friend'}/>
+</div> 
+
+</div>
+
+<div>
+    <div className={classes.aboutuscontainer}>
+        <Dash title={'Those Who have Partnered With Us'}/>
+        <p className={classes.aboutussubtext}>These brands says a lot about the quality of our services</p>
+        </div>
+        <div className={classes.yourlogocon}> 
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+            <YourLogo yourlogo={yourlogo}/>
+        </div>
+   
 </div>
 
 
