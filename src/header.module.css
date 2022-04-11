@@ -9,6 +9,8 @@
   color: green;
   vertical-align: middle;
   text-align: left;
+  position: fixed;
+  width: 100%;
 }
 .Logo {
   margin: 22px;

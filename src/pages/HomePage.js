@@ -21,6 +21,7 @@ import Footer from '../componet/Footer'
 function Homepage(props) {
     return(
         <div>
+                
             <div className={classes.title}>
                 <div className={classes.box}>
                 <h1 className={classes.test}>Bike no <br/>fit carry am ?</h1>
