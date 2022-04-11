@@ -1,0 +1,101 @@
+.dontMissOut{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.signUpToRecieveMail{
+    font-size: 13px;
+    
+    margin-bottom: 35px;
+}
+.emailAddressLabel{
+    font-size: 13px;
+    font-weight: bold;
+}
+.emailInput{
+    width: 426px;
+    height: 46px;
+    color: var(--black);
+    padding: 10px;
+}
+.bySigning{
+    width: 426px;
+    margin-top: 35px;
+}
+.emailAdressBtn{
+     width: 100px;
+    height: 40px;
+
+   
+    background: none;
+    border: 2px solid white; 
+       color: white;
+       margin-top: 20px;
+}
+.emailAdressBtnCon{
+    text-align: right;
+    width: 426px;
+   
+}
+.bySigning{
+    font-size: 13px;
+}
+.underlineTermsOfUse{
+    text-decoration: underline;
+}
+.newslettercon{
+    list-style: none;
+    float: left;
+    margin: 0px 100px 0px 0px;
+}
+.TitleFooter{
+    list-style: none;
+    vertical-align: text-bottom;
+    margin: 0px 100px 150px 0px;
+    float: left;
+}
+
+.signUpToRecieveMailtitle{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.signUpToRecieveMailA{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.footerComponetCon{
+    text-align: left;
+    margin-top: 100px;
+    
+}
+.instagramLogo{
+   margin-right: 10px;
+   display: inline-block;
+}
+.termsOfUse{
+    
+    padding: 15px 0px;
+    border-top: 2px solid var(--yellow);
+  border-bottom: 2px solid var(--yellow);
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 50px;
+    
+}
+.copywright{
+    display: inline-block;
+    margin: 20px 50px;
+}
+.backToTop{
+    margin: 20px 50px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: bold;
+   vertical-align: middle;
+}
+.arrowUP{
+    vertical-align: middle;
+}

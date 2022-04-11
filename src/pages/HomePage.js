@@ -14,6 +14,7 @@ import swiftIcon from '../images/swift response icon.png'
 import referIcon from '../images/refer & earn icon.png'
 import YourLogo from '../componet/YourLogo'
 import yourlogo from '../images/your logo.png'
+import Footer from '../componet/Footer'
 
 
 
@@ -56,7 +57,7 @@ function Homepage(props) {
 </div>
 <div className={classes.ladyandtextcon}>
     <img src={girl} alt={girl} className={classes.lady}/>
-    <p className={classes.abouttext}>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
+    <p className={classes.abouttext} id='#about'>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
 
 We intend to place much interest on delivering large sized goods with a considerable weight for both corporate and domestic clients, and we will strive to meet all the demands of our customers. <br/> <br/>
 
@@ -95,6 +96,13 @@ exact timing your package would arrive, not forgetting our:</p>
    
 </div>
 
+
+<div className={classes.bigfootercon}>
+  <div className={classes.footercon}>
+    <Footer/>
+   
+</div>  
+</div>
 
  
 
