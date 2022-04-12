@@ -1,7 +1,7 @@
 import classes from './BecomeAPartner.module.css'
 import Underlinedform from './underlinedform'
 import 'animate.css';
-import Otp from './Otp';
+
 
 function BecomeAPartner(props) {
     return(

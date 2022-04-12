@@ -5,7 +5,9 @@ function Underlinedform(props) {
         <div className={classes.underlinedform}>
             <form >
                 <input type={props.type} className={classes.inputbig} placeholder={props.bigplaceholder}></input>
-                <div className={classes.formconbig}> <button className={classes.btnbig}>{props.button}</button></div>
+                <button className={classes.btn}>{props.button}</button>
+                
+                
                
             </form>
         </div>
