@@ -44,8 +44,9 @@ text-align: center;
     animation-timing-function: ease-in-out;
     position: absolute;
     display: flex;
-    bottom: 2vh;
+    bottom: 0vh;
     left: 80vw;
+    z-index: -11;
     
     
 }
@@ -61,4 +62,9 @@ text-align: center;
 }
 .wavy{
     width: 600px;
+    position: absolute;
+    display: flex;
+    top: 70vh;
+    left: 30%;
+    z-index: -11;
 }

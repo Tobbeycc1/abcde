@@ -4,7 +4,7 @@ function Underlinedform(props) {
     return(
         <div className={classes.underlinedform}>
             <form >
-                <input type='text' className={classes.inputbig} placeholder={props.bigplaceholder}></input>
+                <input type={props.type} className={classes.inputbig} placeholder={props.bigplaceholder}></input>
                 <div className={classes.formconbig}> <button className={classes.btnbig}>{props.button}</button></div>
                
             </form>

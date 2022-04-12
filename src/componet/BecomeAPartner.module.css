@@ -5,5 +5,60 @@
     height: 100vh;
     background: rgba(0, 0, 0, 0.932);
    
+   animation-name: slideDown;
+   animation-duration: 3s;
+   /* animation-iteration-count: 1; */
+   animation-timing-function: ease-in-out;
+   z-index: 1000;
+}
+.modalCon{
+    position: fixed;
+    padding-left: 22px;
+     animation-name: slideDown;
+   animation-duration: 3s;
+   /* animation-iteration-count: 1; */
+   animation-timing-function: ease-in-out;
+
 }
 
+.test{
+    position: absolute; 
+    z-index: 1001;
+  
+}
+
+@keyframes slideDown{
+    0%{
+       top: -100vh;
+    }
+    25%{
+       top: 0%;
+        
+       
+    }
+   
+}
+.livetrackcon{
+    padding-top: 2018vh;
+  height: 90vh;
+  overflow-y:  hidden;
+  
+}
+.livetracksubcon{
+    padding-top: 18vh;
+    width: 643px;
+    color: blue;
+    margin: 20px auto;
+    
+ 
+}
+
+.trackingtitle{
+   
+    font-size: 25.71px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.enterOtp{
+    position: relative;
+}

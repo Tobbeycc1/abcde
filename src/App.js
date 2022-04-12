@@ -9,16 +9,26 @@ import { useState } from "react";
 function App() {
 const [modalIsOpen, setModalisOpen]= useState(false)
 
-  function Show() {
-    console.log('jfgfhfghfg');
-    setModalisOpen(true)
+  function ShowModal() { 
+    
+    console.log('Showing');
+    setModalisOpen(!modalIsOpen)
+    
 }
+
+function DontShowModal() { 
+    
+  console.log('Notshowing');
+  setModalisOpen(false)
+}
+
  return(
  <div>
-  {modalIsOpen &&  <BecomeAPartner/>}
-  <Header onClick={Show}/>
+  {modalIsOpen &&  <BecomeAPartner onClick={DontShowModal}/>
+  }
+  <Header onBecomeAPartnerClick={ShowModal} onHomeClick={DontShowModal} onLiveTrackClick={DontShowModal} onPartnerClick={DontShowModal} onContactClick={DontShowModal} onRequestTMClick={DontShowModal}/>
   <Routes>
-    <Route path="/" element={<Homepage/>}/>
+    <Route path="/" element={<Homepage />}/>
     <Route path="/live-track" element={<Livetrack/>}/>
 
 
