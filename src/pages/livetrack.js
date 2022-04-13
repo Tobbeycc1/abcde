@@ -9,7 +9,7 @@ function Livetrack(props) {
             <div className={classes.livetracksubcon}>
             <h3 className={classes.trackingtitle}>Input <br/> TM Tracking Code</h3>
             <p className={classes.trackingsubtitle}>See where your Tex-z manager has gotten to</p>
-            <div className={classes.underlineCon}><Underlinedform type={'text'} bigplaceholder={'Input unique TM tracking codev'} button={'TRACK'}/></div>
+            <div className={classes.underlineCon}><Underlinedform type={'text'} bigplaceholder={'Input unique TM tracking code'} button={'TRACK'}/></div>
             
             </div>
             <div className={classes.wavycon}>
