@@ -1,0 +1,27 @@
+.Pformcon {
+  position: absolute;
+  top: 18vh;
+  left: 5%;
+  z-index: -2;
+}
+.label {
+  font-size: 25px;
+  font-weight: bold;
+}
+.calendarCon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.formCon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+  text-align: left;
+
+}
+.center{
+  text-align: center;
+}

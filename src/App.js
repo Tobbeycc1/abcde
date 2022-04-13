@@ -5,6 +5,9 @@ import Header from "./componet/header";
 import Homepage from "./pages/HomePage";
 import Livetrack from "./pages/livetrack";
 import { useState } from "react";
+import Partner from "./Partner";
+
+
 
 function App() {
 const [modalIsOpen, setModalisOpen]= useState(false)
@@ -30,9 +33,16 @@ function DontShowModal() {
   <Routes>
     <Route path="/" element={<Homepage />}/>
     <Route path="/live-track" element={<Livetrack/>}/>
+    <Route path="/partner" element={<Partner/>}/>
+
+    
+   
+  
 
 
   </Routes>
+  
+ 
    
  </div>
  )
