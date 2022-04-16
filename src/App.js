@@ -6,17 +6,30 @@ import Homepage from "./pages/HomePage";
 import Livetrack from "./pages/livetrack";
 import { useState } from "react";
 import Partner from "./Partner";
-
+import MediaQuery from 'react-responsive'
+import NotLaptop from "./notLaptopMedia";
+import classes from './App.module.css'
+import Logo from './images/Logo.png'
 
 
 function App() {
 const [modalIsOpen, setModalisOpen]= useState(false)
+const [mobileHeaderIsOpen, setMobileHeaderOpen]= useState(false)
 
   function ShowModal() { 
     
     console.log('Showing');
     setModalisOpen(!modalIsOpen)
+    setMobileHeaderOpen(false)
     
+}
+function ShowMobileHeader() {
+  setMobileHeaderOpen(!mobileHeaderIsOpen)
+  
+}
+function DontShowMobileHeader() {
+  setMobileHeaderOpen(false)
+  setModalisOpen(false)
 }
 
 function DontShowModal() { 
@@ -27,9 +40,27 @@ function DontShowModal() {
 
  return(
  <div>
+   <MediaQuery minWidth={1000}>
+   <Header onBecomeAPartnerClick={ShowModal} onHomeClick={DontShowModal} onLiveTrackClick={DontShowModal} onPartnerClick={DontShowModal} onContactClick={DontShowModal} onRequestTMClick={DontShowModal}/>
+   </MediaQuery>
+
+   <MediaQuery maxWidth={999}>
+     <div className={classes.notLaptopHeader}>
+     <div className={classes.header}>
+         <img src={Logo} className={classes.Logo} alt="Logo" />
+            <div className={classes.navCon}>
+            <p className={classes.hamburgerButton} onClick={ShowMobileHeader}>&#9776;</p>
+            </div>
+        </div>
+        {mobileHeaderIsOpen &&  <NotLaptop onBecomeAPartnerClick={ShowModal} onHomeClick={DontShowMobileHeader} onLiveTrackClick={DontShowMobileHeader} onPartnerClick={DontShowMobileHeader} onContactClick={DontShowMobileHeader} onRequestTMClick={DontShowMobileHeader}/> }
+  
+     </div>
+
+   </MediaQuery>
+ 
   {modalIsOpen &&  <BecomeAPartner onClick={DontShowModal}/>
   }
-  <Header onBecomeAPartnerClick={ShowModal} onHomeClick={DontShowModal} onLiveTrackClick={DontShowModal} onPartnerClick={DontShowModal} onContactClick={DontShowModal} onRequestTMClick={DontShowModal}/>
+  
   <Routes>
     <Route path="/" element={<Homepage />}/>
     <Route path="/live-track" element={<Livetrack/>}/>

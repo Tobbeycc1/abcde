@@ -2,6 +2,7 @@ import PartnersForm from "./partnersForm"
 import classes from './Partner.module.css'
 import CalendarA from "./componet/Calendar"
 
+
 function Partner(props) {
     return(
         <div className={classes.Pformcon}>
@@ -19,10 +20,7 @@ function Partner(props) {
               <CalendarA/>
            </div>
 
-           <div className={classes.calendarCon}>
-              <label className={classes.label}>Schedule Time</label> <br/> <br/>
-              <CalendarA/>
-           </div>
+          
             </div>
             
        

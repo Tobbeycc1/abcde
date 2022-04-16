@@ -126,3 +126,8 @@ padding: 0px 22px;
   text-align: center;
   
 }
+@media screen and (max-width: 900px) {
+  .hand{
+    display: none;
+  }
+}
