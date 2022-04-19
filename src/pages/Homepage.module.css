@@ -1,6 +1,7 @@
 :root {
   --black: #000000;
   --yellow: #ffd700;
+ 
 }
 
 .test {
@@ -28,7 +29,7 @@
 }
 .title {
   text-align: center;
-  padding: 120px 25px;
+  padding: 10vh 25px;
   margin-bottom: 100px;
 }
 .hand {
@@ -49,7 +50,7 @@
   padding-left: 80px;
 }
 .actualformheader {
-  width: 450px;
+  width: 440px;
   height: 40px;
   color: rgb(194, 189, 189);
   padding: 10px;
@@ -87,10 +88,11 @@ padding: 0px 22px;
 .abouttext{
   width: 579px;
   display: inline-block;
-  text-align: left;
+  text-align: justify;
   vertical-align: middle;
   font-size: 15.02px;
   line-height: 25px;
+
 }
 .whyChooseUsCon{
   width: 85vw;
@@ -118,7 +120,7 @@ padding: 0px 22px;
  text-align: center;
  margin-top: 200px;
  
- display: inline-block;
+ display: block;
  
  
 }
@@ -126,8 +128,191 @@ padding: 0px 22px;
   text-align: center;
   
 }
+@media screen and (max-width: 1263px) {
+  .test {
+    height: 130px;
+    font-size: 40.5px;
+  }
+  .hand{
+   width: 450px;
+   vertical-align: top;
+  }
+  .actualformheader {
+    width: 320px;
+    height: 40px;
+    color: rgb(194, 189, 189);
+    padding: 10px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .subheadertext{
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 900px) {
+  .test {
+    color: white;
+    font-size: 36px;
+    width: 100%;
+    height: 200px;
+    background: url(../images/arrows.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    font-size: 60.5px;
+    font-family: "Secular One";
+    /* display: inline-block; */
+    text-align: left;
+  }
   .hand{
     display: none;
   }
+  .actualformheader {
+    width: 380px;
+    height: 40px;
+    color: rgb(194, 189, 189);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .subheadertext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 400px;
+    padding-left: 80px;
+    color: white;
+    line-height: 25px;
+  }
+  .subheadertext{
+    font-size: 16px;
+  }
+  .abouttext{
+    width: 100%;
+   }
+   .whyChooseUsSubTitle{
+    font-size: 18px;
+  }
+  .title {
+    text-align: center;
+    padding: 10vh 25px;
+    margin-bottom: 100px;
+  }
 }
+
+@media screen and (max-width: 540px) {
+  .test {
+    width: 350px;
+    height: 130px;
+    font-size: 40.5px;
+  }
+  .actualformheader {
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    font-size: 10px;
+    
+  }
+  .subheadertext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 300px;
+    padding-left: 80px;
+    color: white;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .whyChooseUsSubTitle{
+    font-size: 15px;
+  }
+  .stepsboxcontainer{
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .test {
+    color: white;
+    font-size: 36px;
+    width: 300px;
+    height: 100px;
+    font-size: 30.5px;
+  }
+  .hand{
+    display: none;
+  }
+  .actualformheader {
+    width: 220px;
+    height: 40px;
+    padding: 10px;
+    font-size: 10px;
+    
+  }
+  
+  .subheadertext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 300px;
+    padding-left: 80px;
+    color: white;
+    line-height: 25px;
+    font-size: 12px;
+  }
+
+  .noWaha{
+    font-size: 12px;
+  }
+  .abouttext{
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 25px;
+    
+  }
+  .whyChooseUsSubTitle{
+    font-size: 13px;
+  }
+ 
+  .lady{
+   width: 65%;
+  }
+  .stepsboxcontainer{
+    padding: 0px 30px;
+  }
+
+}
+@media screen and (max-width: 350px) {
+  .test {
+    width: 250px;
+    height: 90px;
+    font-size: 25.5px;
+  }
+  .subheadertext {
+    font-size: 9px;
+    width: 250px;
+    
+  }
+  .actualformheader {
+    width: 170px;
+    height: 30px;
+   
+  }
+  .aboutussubtext{
+    font-size: 8px;
+  }
+  .whyChooseUsSubTitle{
+    font-size: 8px; 
+   }
+   .abouttext{
+    font-size: 8px;
+  }
+  .actualformheader::placeholder{
+    font-size: 8px;
+  }
+}
+

@@ -68,3 +68,12 @@
 .enterOtp{
     position: relative;
 }
+@media screen and (max-width: 900px) {
+    .livetracksubcon{
+        padding-top: 18vh;
+        width: 80vw;
+        color: blue;
+        margin: none;
+     
+    }
+  }

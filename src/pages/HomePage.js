@@ -40,7 +40,7 @@ function Homepage(props) {
     <div className={classes.howweoperatetitlecontainer}> 
          <div className={classes.howweoperatecontainer}> 
     <Dash title={'How We Operate'}  />
-    <p>No <span className={classes.smallnowahala}>Wahala</span></p>
+    <p className={classes.noWaha}>No <span className={classes.smallnowahala}>Wahala</span></p>
     </div>
    
 </div>

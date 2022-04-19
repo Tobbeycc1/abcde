@@ -1,11 +1,12 @@
-import { HashRouter, Link } from 'react-router-dom'
+
 import classes from './Footer.module.css'
 
 function Footer(props) {
     return (
 
 <div className={classes.footerComponetCon}>
-        <ul className={classes.newslettercon}>
+    <div className={classes.footerComponetSubSubCon}>
+      <ul className={classes.newslettercon}>
         <li className={classes.dontMissOut}>Don&#180;t Miss Out On Any Information </li>
         <li className={classes.signUpToRecieveMail}>Sign up to receive emails &#38; newsletters from Tex-Z  </li>
         <li><form>
@@ -16,6 +17,9 @@ function Footer(props) {
             </form> 
             </li>
         <li className={classes.bySigning}>By signing up, you understand &#38; agree that your data will be collected &#38; used with utmost confidentiality &#38; <span className={classes.underlineTermsOfUse}>Terms of Use</span> </li>
+        <br/>
+         <br/>
+         <br/>
         </ul>
 
         <ul className={classes.TitleFooter}>
@@ -48,11 +52,14 @@ function Footer(props) {
             
             
          </ul>
-         <div className={classes.termsOfUse}>
+        
+      
+    </div>
+    <div className={classes.termsOfUse}>
          <a href='https://facebook.com/tobbey_cc' target= '_blank' className={classes.instagramLogo}>Terms of Use</a>
          <p className={classes.copywright}>© 2022 Tex-Z Inc.</p>
          <a href='/#' className={classes.backToTop}>BACK TO TOP<span className={classes.arrowUP}><i class="material-icons ">arrow_drop_up</i></span></a>
-         </div>
+         </div>   
          
         
     

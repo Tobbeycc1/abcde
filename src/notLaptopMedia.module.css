@@ -2,12 +2,12 @@
   position: fixed;
   padding-top: 20px;
   background: var(--black);
-  background: white;
-  width: 35vw;
+  background: var(--black);
+  width: 100vw;
   height: 100vh;
   animation-name: SlidingNavbar;
   animation-duration: 1s;
-
+  text-align: center;
   animation-timing-function: ease-in-out;
 }
 
@@ -26,14 +26,15 @@
 
   .nav {
     color: white;
-    color: var(--black);
+    /* color: var(--black); */
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10.5px;
     font-weight: bold;
-    margin: 50px 22px;
+    margin: 30px 22px;
     cursor: pointer;
     display: block;
+   
   }
   
   .nav:active {

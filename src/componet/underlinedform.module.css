@@ -55,3 +55,10 @@
   background: none;
   color: white;
 }
+@media screen and (max-width: 900px) {
+  .inputbig {
+    width: 80vw;
+    font-size: 25px;
+    
+}
+}

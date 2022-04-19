@@ -33,3 +33,51 @@
     display: inline-block;
     vertical-align: middle;
 }
+@media screen and (max-width: 413px) {
+    .WhyChooseUsCon{
+    
+        padding: 10px;
+        background: white;
+        width: 90%;
+        color: var(--black);
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px;
+        text-align: left;
+      
+    }
+    .whyChooseUsIcon{
+        width: 50px;
+        height: 50px;
+        background: var(--yellow);
+        padding: 10px;
+        border-radius: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 13px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .WhyChooseUsCon{
+    
+        padding: 10px;
+        background: white;
+        width: 90%;
+        color: var(--black);
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px;
+        text-align: left;
+      
+    }
+    .whyChooseUsIcon{
+        width: 30px;
+        height: 30px;
+        background: var(--yellow);
+        padding: 7px;
+        border-radius: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 13px;
+    }
+}

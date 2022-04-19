@@ -9,3 +9,13 @@
   margin: 0px 10px;
   vertical-align: middle;
 }
+@media screen and (max-width: 414px) {
+  .subhtitle {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .subhtitle {
+    font-size: 12px;
+  }
+}

@@ -42,6 +42,7 @@
 }
 .underlineTermsOfUse{
     text-decoration: underline;
+    clear: both;
 }
 .newslettercon{
     list-style: none;
@@ -51,7 +52,7 @@
 .TitleFooter{
     list-style: none;
     vertical-align: text-bottom;
-    margin: 0px 100px 150px 0px;
+    margin: 0px 100px 20px 0px;
     float: left;
 }
 
@@ -79,10 +80,11 @@
     border-top: 2px solid var(--yellow);
   border-bottom: 2px solid var(--yellow);
     clear: both;
-    margin-top: 50px;
+    
     margin-bottom: 50px;
     text-align: center;
     margin: 50px;
+    
     
 }
 .copywright{
@@ -98,4 +100,39 @@
 }
 .arrowUP{
     vertical-align: middle;
+}
+.footerComponetCon{
+    padding: 60px;
+    width: 100vw;
+}
+@media screen and (max-width: 540px) {
+    .dontMissOut{
+        font-size:15px;
+    }
+    
+    .footerComponetCon{
+         padding: 40px;
+         width: 100vw;
+    }
+    .newslettercon{
+        clear: both;
+    }
+    .TitleFooter{
+     clear: both;
+    }
+    .emailInput{
+        width: 80vw;
+        height: 46px;
+        color: var(--black);
+        padding: 10px;
+    }
+    .bySigning{
+        width: 80vw;
+        margin-top: 35px;
+        font-size: 10px;
+    }
+    .emailAdressBtnCon{
+        width: 80vw;
+    }
+   
 }

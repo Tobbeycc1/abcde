@@ -69,3 +69,39 @@ text-align: center;
     width: 400px;
   
 }
+@media screen and (max-width: 900px) {
+    .livetrackcon{
+        padding-left: 40px;
+        padding-right: 40px;
+      
+    }
+    .livetracksubcon{
+        width: 80vw;
+        color: blue;
+        margin: 0px;
+    }
+    .smallcar{
+        width: 150px;
+        animation-name: slidingCar;
+        left: 65vw;
+        animation-duration: 4s;
+    }
+    @keyframes slidingCar{
+        0%{
+           left: 65vw;
+        }
+        25%{
+            left: 40vw;
+           
+        }
+       
+    }
+}
+@media screen and (max-width: 540px) {
+    .livetrackcon{
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+  
+}
