@@ -40,6 +40,7 @@ text-align: center;
 .smallcarcon{
     text-align: right;
     
+    
 }
 .smallcar{
     width: 180px;
@@ -96,7 +97,12 @@ text-align: center;
         }
        
     }
+    .wavycon{
+        text-align: center;   
+        margin-top: 10vh;
+    }
 }
+
 @media screen and (max-width: 540px) {
     .livetrackcon{
         padding-left: 20px;
