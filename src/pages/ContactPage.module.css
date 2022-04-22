@@ -1,0 +1,93 @@
+.ContactCon{
+   text-align: right;
+   background: url(../images/contact\ background.png);
+}
+.Contacttext{
+    color: black;
+}
+.FormCon{
+    text-align: right;
+    background: white;
+    width: 40vw;
+    padding: 150px 20px;
+    left: 40vw;
+    margin-left: 50vw;
+    
+    
+}
+.FormSubCon{
+    text-align: left;
+}
+.contactLabel{
+    color: black;
+    font-size: 25.71px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.inputbig {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: rgb(241, 13, 13);
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: black;
+    outline: none;
+  }
+  .textarea{
+      width: 100%;
+      border: 2px solid gray;
+      height: 139px;
+      padding: 10px ;
+     color: black;
+     margin-top: 30px;
+     margin-bottom: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+  }
+  .textarea::placeholder{
+    text-align: center;
+    padding-top: 5%;
+  }
+  .btn {
+    width: 130px;
+    height: 50px;
+    background: var(--yellow);
+   
+    font-size: 17.41px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .btn:hover {
+    border: 2px solid black;
+    background: none;
+    color: black;
+  }
+  .footer{
+    text-align: center;
+  }
+
+  @media screen and (max-width: 900px){
+    .FormCon{
+      text-align: right;
+      background: white;
+      width: 90vw;
+      left: 40vw;
+      margin-left: 5.8%;  
+     
+  }
+ .contactLabel{
+    color: black;
+    font-size: 20.71px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  }

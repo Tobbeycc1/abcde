@@ -28,7 +28,7 @@
         margin: 10px 0px;
     }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 360px) {
        .loremsubtext{
         width: 100%;
         font-size: 8px;

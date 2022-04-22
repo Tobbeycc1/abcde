@@ -100,7 +100,7 @@ exact timing your package would arrive, not forgetting our:</p>
 
 <div className={classes.bigfootercon}>
   <div className={classes.footercon}>
-    <Footer/>
+    <Footer id={'#'}/>
    
 </div>  
 </div>

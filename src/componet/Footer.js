@@ -58,7 +58,7 @@ function Footer(props) {
     <div className={classes.termsOfUse}>
          <a href='https://facebook.com/tobbey_cc' target= '_blank' className={classes.instagramLogo}>Terms of Use</a>
          <p className={classes.copywright}>© 2022 Tex-Z Inc.</p>
-         <a href='/#' className={classes.backToTop}>BACK TO TOP<span className={classes.arrowUP}><i class="material-icons ">arrow_drop_up</i></span></a>
+         <a href={props.id} className={classes.backToTop}>BACK TO TOP<span className={classes.arrowUP}><i class="material-icons ">arrow_drop_up</i></span></a>
          </div>   
          
         

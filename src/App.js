@@ -10,6 +10,7 @@ import MediaQuery from 'react-responsive'
 import NotLaptop from "./notLaptopMedia";
 import classes from './App.module.css'
 import Logo from './images/Logo.png'
+import ContactPage from "./pages/ContactPage";
 
 
 function App() {
@@ -40,6 +41,7 @@ function DontShowModal() {
 
  return(
  <div>
+   
    <MediaQuery minWidth={1000}>
    <Header onBecomeAPartnerClick={ShowModal} onHomeClick={DontShowModal} onLiveTrackClick={DontShowModal} onPartnerClick={DontShowModal} onContactClick={DontShowModal} onRequestTMClick={DontShowModal}/>
    </MediaQuery>
@@ -65,6 +67,7 @@ function DontShowModal() {
     <Route path="/" element={<Homepage />}/>
     <Route path="/live-track" element={<Livetrack/>}/>
     <Route path="/partner" element={<Partner/>}/>
+    <Route path="/contact" element={<ContactPage/>}/>
 
     
    
