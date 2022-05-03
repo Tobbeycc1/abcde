@@ -55,6 +55,7 @@
   color: rgb(194, 189, 189);
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+outline: 5px solid var(--yellow);
 }
 .howweoperatecontainer {
   padding: 0px 22px;
