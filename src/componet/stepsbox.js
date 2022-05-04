@@ -5,7 +5,7 @@ import Loremsubtext from './loremsubtext'
 import Stepsicon from "./stepsicon"
 function Stepsbox(props) {
     return(
-        <div className={classes.stepsbox}>
+        <div data-aos="fade-down" data-aos-duration="2000" className={classes.stepsbox}>
 <Stepsicon inputicon={props.inputicon}/>
 <Dash title={props.title}/>
 <Loremsubtext stext={props.stext}/>

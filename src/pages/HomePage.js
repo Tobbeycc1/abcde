@@ -16,13 +16,17 @@ import YourLogo from '../componet/YourLogo'
 import yourlogo from '../images/your logo.png'
 import Footer from '../componet/Footer'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 function Homepage(props) {
+    AOS.init();
     return(
         <div>
                 
-            <div className={classes.title}>
+            <div  className={classes.title}>
                 <div className={classes.box}>
                 <h1 className={classes.test}>Bike no <br/>fit carry am ?</h1>
                 <p className={classes.subheadertext}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eros tellus, semper a efficitur sed, efficitur id diam.</p>
@@ -56,20 +60,21 @@ function Homepage(props) {
 <div className={classes.aboutuscontainer}>
     <Dash title={'About Tex-Z'}/>
 </div>
-<div className={classes.ladyandtextcon}>
-    <img src={girl} alt={girl} className={classes.lady}/>
-    <p className={classes.abouttext} id='#about'>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
+<div data-aos="fade-down" data-aos-duration="2000"  className={classes.ladyandtextcon}>
+    <img  src={girl} alt={girl} className={classes.lady}/>
+    <p  className={classes.abouttext} id='#about'>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
 
 We intend to place much interest on delivering large sized goods with a considerable weight for both corporate and domestic clients, and we will strive to meet all the demands of our customers. <br/> <br/>
 
 Our delivery business has been established not only to generate revenue and make profit but to solve problems facing retailers and customers in movement of their goods and also to compete favorably with other goods delivery business in Lagos and in Nigeria. Tex-Z delivery inc. is aimed at striking a balance between retailers of large sized goods and its respective customers in terms of the supposed goods movements. By so doing, saves the retailer and customer time, cost and energy.
 </p>
 </div>
-<div className={classes.whyChooseUsCon}>
-    <h3 className={classes.whyChooseUsTitle}>Why Choose Us?</h3>
-    <p className={classes.whyChooseUsSubTitle}>Imagine a platform that allows you to plan your schedule with accurate information on 
+
+<div data-aos="fade-down" data-aos-duration="2000" className={classes.whyChooseUsCon}>
+    <h3  className={classes.whyChooseUsTitle}>Why Choose Us?</h3>
+    <p  className={classes.whyChooseUsSubTitle}>Imagine a platform that allows you to plan your schedule with accurate information on 
 exact timing your package would arrive, not forgetting our:</p>
-<div className={classes.WhyChooseUsBoxCon}>
+<div   className={classes.WhyChooseUsBoxCon}>
     <WhyChooseUsBox whyChooseUsiconHeader={'Cheap rates'} whyChooseUsIcon={cheapRateIcon} whyChooseUsiconSubtext={'Our prices are friendly, yet you get the best service'}/>
 <WhyChooseUsBox whyChooseUsiconHeader={'Swift Response'} whyChooseUsIcon={swiftIcon} whyChooseUsiconSubtext={'Get your package in a blink of an eye'}/>
 <WhyChooseUsBox whyChooseUsiconHeader={'Refer & Earn'} whyChooseUsIcon={referIcon} whyChooseUsiconSubtext={'You can get free bonuses when you share refer a friend'}/>
@@ -78,7 +83,7 @@ exact timing your package would arrive, not forgetting our:</p>
 </div>
 
 <div>
-    <div className={classes.aboutuscontainer}>
+    <div  className={classes.aboutuscontainer}>
         <Dash title={'Those Who have Partnered With Us'}/>
         <p className={classes.aboutussubtext}>These brands says a lot about the quality of our services</p>
         </div>
