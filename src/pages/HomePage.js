@@ -60,7 +60,7 @@ function Homepage(props) {
 <div className={classes.aboutuscontainer}>
     <Dash title={'About Tex-Z'}/>
 </div>
-<div data-aos="fade-down" data-aos-duration="2000"  className={classes.ladyandtextcon}>
+<div   className={classes.ladyandtextcon}>
     <img  src={girl} alt={girl} className={classes.lady}/>
     <p  className={classes.abouttext} id='#about'>Tex-Z delivery inc. is a business that has been established in Lagos, Nigeria in the year 2020 and is reputed to be amongst the top best delivery brands in Nigeria by the year 2040. <br/> <br/>
 
