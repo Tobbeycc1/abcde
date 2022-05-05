@@ -98,6 +98,8 @@ padding: 0px 22px;
 .whyChooseUsCon{
   width: 85vw;
   margin: 200px auto;
+  position: relative;
+  z-index: -10;
 }
 .whyChooseUsTitle{
   font-weight: 1000;
